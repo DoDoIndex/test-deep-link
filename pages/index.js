@@ -15,12 +15,30 @@ export default function Index({ posts, globalData }) {
       <Header name={globalData.name} />
       <main className="w-full">
         <a href="https://google.com">google.com</a>
+        <br />
         <a href="refin://">refin://</a>
+        <br />
+        <a href="refin://aa">refin://aa</a>
+        <br />
         <a href="fb://">fb://</a>
+        <br />
+        <a href="fb://aa">fb://aa</a>
+        <br />
         <a href="metalpay://">metalpay://</a>
+        <br />
+        <a href="metalpay://aa">metalpay://</a>
+        <br />
         <a href="metalpay-prod://">metalpay-prod://</a>
+        <br />
+        <a href="metalpay-prod://">metalpay-prod://aa</a>
+        <br />
         <a href="metalpay-dev://">metalpay-dev://</a>
+        <br />
+        <a href="metalpay-dev://">metalpay-dev://aa</a>
+        <br />
         <a href="metalpay-local://">metalpay-local://</a>
+        <br />
+        <a href="metalpay-local://">metalpay-local://aa</a>
       </main>
       <Footer copyrightText={globalData.footerText} />
       <GradientBackground
