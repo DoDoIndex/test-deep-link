@@ -39,6 +39,10 @@ export default function Index({ posts, globalData }) {
         <a href="metalpay-local://">metalpay-local://</a>
         <br />
         <a href="metalpay-local://">metalpay-local://aa</a>
+        <br />
+        <a href="http://metalpay.test-app.link/">
+          http://metalpay.test-app.link/
+        </a>
       </main>
       <Footer copyrightText={globalData.footerText} />
       <GradientBackground
